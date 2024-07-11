@@ -18,11 +18,11 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'lineage-21'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: '/android_device_nintendo_nx'
+        default: 'device/nintendo/nx/'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_nx'
+        default: 'nx'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
